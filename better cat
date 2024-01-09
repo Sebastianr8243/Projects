@@ -1,0 +1,52 @@
+import time
+
+def dance_cat():
+    frames = [
+        r'''
+    /\_/\
+   ( o.o )
+    > ^ <
+        ''',
+        r'''
+    /\_/\
+   ( -.- )
+    > ^ <
+        ''',
+        r'''
+    /\_/\
+   ( -.- )
+    > < <
+        ''',
+        r'''
+    /\_/\
+   ( o.o )
+    > < <
+        ''',
+        r'''
+    /\_/\
+   ( -.- )
+    > ^ <
+        ''',
+        r'''
+    /\_/\
+   ( o.o )
+    > ^ <
+        ''',
+        r'''
+    /\_/\
+   ( -.- )
+    > < <
+        ''',
+        r'''
+    /\_/\
+   ( o.o )
+    > < <
+        '''
+    ]
+
+    for frame in frames:
+        print(frame)
+        time.sleep(0.5)  # Adjust the sleep duration to change the speed of the dance
+
+if __name__ == "__main__":
+    dance_cat()
